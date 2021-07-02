@@ -1,7 +1,7 @@
 // Header
 .header {
   margin-bottom: 50px;
-  background: $black;
+  background: $dark-blue;
 }
 
 .header, .header-box {
@@ -187,7 +187,7 @@
 // Articles
 .article-first {
   margin-bottom: 30px;
-  background: $black;
+  background: $gray-blue;
   .article-image-first {
     position: relative;
     display: flex;
@@ -196,7 +196,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: $black;
+    background-color: $gray-blue;
     box-shadow: 0 9px 18px 0 rgba(0, 0, 0, .25);
     &:before {
       content: "";
@@ -252,6 +252,15 @@
 .article {
   display: flex;
   margin-bottom: 25px;
+  .article-content {
+    .article-info {
+      .article-date {
+        .date {
+          color: $gray-blue;
+        }
+      }
+    }
+  }
   &:hover {
     .article-image {
       .image-overlay-text {
@@ -264,13 +273,20 @@
         width: 100%;
       }
     }
+    .article-content {
+      .article-title {
+        a {
+          color: $gray-blue;
+        }
+      }
+    }
   }
   .article-box {
     padding-bottom: 20px;
     border-bottom: 2px solid $border-color;
   }
   .article-head {
-    background: $black;
+    background: $gray-blue;
   }
   .article-image {
     position: relative;
@@ -279,7 +295,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: $black;
+    background-color: $gray-blue;
     box-shadow: 0 9px 18px 0 rgba(0, 0, 0, .25);
     &:before {
       content: "";
@@ -349,7 +365,7 @@
       margin-bottom: 5px;
       a {
         font-size: 24px;
-        color: $text;
+        color: $lighten-black;
       }
     }
     .article-excerpt {

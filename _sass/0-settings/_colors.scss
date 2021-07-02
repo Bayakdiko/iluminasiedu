@@ -12,13 +12,18 @@ $blue-darken: #232427;
 $green-darken: #2C3635;
 $danger: #e02f40;
 $success: #34a74e;
+$secondary-white:	#fbfbfb;
+$lightest-blue: #c8e0e4;
+$light-blue: #7197a0;
+$dark-blue: #223053;
+$darker-white: #ffedec;
 
 
 // Background Colors
-$background: $blue-black;
+$background: $secondary-white;
 
 // Body Color
-$body-color: $text;
+$body-color: $black;
 
 // Headings
 $heading-font-color: #404040;
@@ -32,4 +37,4 @@ $button-color: $white;
 $button-background-color: $primary-color;
 
 // Border
-$border-color: #3E4250;
+$border-color: $secondary-white;
