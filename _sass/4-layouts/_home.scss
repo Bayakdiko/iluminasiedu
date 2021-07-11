@@ -206,6 +206,8 @@
     }
   }
   .article-content-first {
+    position: absolute;
+    bottom: 0;
     background: $black;
     padding: 20px;
     color: $text;
@@ -433,8 +435,6 @@
   .article-first {
     .article-content-first {
       padding: 25px 40px;
-      position: absolute;
-      bottom: 0;
     }
   }
 }
